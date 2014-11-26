@@ -55,6 +55,6 @@ return [
         ],
     ],
     'module_layouts' => [
-        'MegaMitch' => 'megamitch-layout/layout'
+        'MegaMitchPH' => 'megamitch-layout/layout'
     ]
 ];

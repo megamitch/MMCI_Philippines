@@ -33,7 +33,7 @@ return [
                 'options'   => [
                     'route'     => '/',
                     'defaults'  => [
-                        'controller'    => 'MegaMitch\Controller\Index',
+                        'controller'    => 'MegaMitchPH\Controller\Index',
                         'action'        => 'index'
                     ]
                 ]

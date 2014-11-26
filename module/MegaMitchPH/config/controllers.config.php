@@ -26,7 +26,7 @@
 
 return [
     'invokables' => [
-        'MegaMitch\Controller\Index' => 'MegaMitch\Controller\IndexController',            
+        'MegaMitchPH\Controller\Index' => 'MegaMitchPH\Controller\IndexController',            
     ],
     'aliases' => []
 ];
