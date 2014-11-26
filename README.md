@@ -3,6 +3,8 @@ MMCI_Philippines
 
 Official website of Mega Mitch Credit, Inc. Philippines
 
+[![Latest Stable Version](https://poser.pugx.org/megamitch/megamitch-philippines/v/stable.svg)](https://packagist.org/packages/megamitch/megamitch-philippines) [![Total Downloads](https://poser.pugx.org/megamitch/megamitch-philippines/downloads.svg)](https://packagist.org/packages/megamitch/megamitch-philippines) [![Latest Unstable Version](https://poser.pugx.org/megamitch/megamitch-philippines/v/unstable.svg)](https://packagist.org/packages/megamitch/megamitch-philippines) [![License](https://poser.pugx.org/megamitch/megamitch-philippines/license.svg)](https://packagist.org/packages/megamitch/megamitch-philippines) [![Build Status](https://travis-ci.org/megamitch/MMCI_Philippines.svg)](https://travis-ci.org/megamitch/MMCI_Philippines)
+
 Installation
 ------------
 
@@ -19,7 +21,7 @@ Alternately, clone the repository and manually invoke `composer` using the shipp
 
     cd my/project/dir
     git clone git://github.com/megamitch/MMCI_Philippines.git
-    cd MegaOfficeTool
+    cd MMCI_Philippines
     git submodule init
     git submodue update
     php composer.phar self-update
