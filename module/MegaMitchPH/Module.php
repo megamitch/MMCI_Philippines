@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace MegaMitch;
+namespace MegaMitchPH;
 
 use Zend\Mvc\ModuleRouteListener;
 use Zend\Mvc\MvcEvent;

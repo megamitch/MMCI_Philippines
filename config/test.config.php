@@ -26,7 +26,7 @@
 
 return [
     'modules' => [
-        'MegaMitch'
+        'MegaMitchPH'
     ],
     
     'module_listener_options' => [

@@ -37,7 +37,7 @@ return [
 //        'ZfcUserDoctrineORM',
         'Mot',
         'MotUsers',
-        'MegaMitch',
+        'MegaMitchPH',
     ],
 
     // These are various options for the listeners attached to the ModuleManager
