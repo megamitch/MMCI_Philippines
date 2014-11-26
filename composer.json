@@ -20,11 +20,21 @@
         "php": ">=5.4",
         "zendframework/zendframework": "2.3.*",
         "evandotpro/edp-module-layouts": "dev-master",
-        "megamitch/mot-application": "dev-master",
-        "megamitch/mot-users": "dev-master"
+        "zf-commons/zfc-user": "~1.2",
+        "zf-commons/zfc-rbac": "~2.4",
+        "doctrine/doctrine-module": "~0.8",
+        "zf-commons/zfc-user-doctrine-orm": "~1.0"
     },
     "require-dev": {        
         "phpunit/phpunit": "4.*",
         "phpunit/php-invoker": "1.*"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "git submodule update --init"
+        ],
+        "post-update-cmd": [
+            "git submodule sync"
+        ]
     }
 }
