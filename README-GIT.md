@@ -13,21 +13,21 @@ review.
 ### Option 1: GitHub
 
  1. Setup a GitHub account (http://github.com/), if you haven't yet
- 2. Fork the MegaOfficeTool repository (http://github.com/CodingMatters/MegaOfficeTool)
+ 2. Fork the Official PH Site repository (http://github.com/megamitch/MMCI_Philippines)
  3. Clone your fork locally and enter it (use your own GitHub username
     in the statement below)
 
     ```sh
-    % git clone git@github.com:<username>/MegaOfficeTool.git
-    % cd MegaOfficeTool
+    % git clone git@github.com:<username>/MMCI_Philippines.git
+    % cd MMCI_Philippines
     ```
 
  4. Add a remote to the canonical MOT repository, so you can keep your fork
     up-to-date:
 
     ```sh
-    % git remote add MegaOfficeTool https://github.com/CodingMatters/MegaOfficeTool.git
-    % git fetch MegaOfficeTool
+    % git remote add MegaOfficeTool https://github.com/megamitch/MMCI_Philippines.git
+    % git fetch MMCI_Philippines
     ```
 
 ### Option 2: Personal Repository
@@ -53,17 +53,17 @@ repository.
  3. Add a remote for the MOT repository and fetch it
 
     ```sh
-    % git remote add MegaOfficeTool https://github.com/CodingMatters/MegaOfficeTool.git
-    % git fetch MegaOfficeTool
+    % git remote add MMCI_Philippines https://github.com/megamitch/MMCI_Philippines.git
+    % git fetch MMCI_Philippines
     ```
 
- 4. Create a new branch for the MOT repository (named "MegaOfficeTool/master" here)
+ 4. Create a new branch for the MOT repository (named "MMCI_Philippines/master" here)
 
     ```sh
-    % git checkout -b MegaOfficeTool/master MegaOfficeTool/master
+    % git checkout -b MMCI_Philippines/master MMCI_Philippines/master
     ```
 
- 5. Create your master branch off the MegaOfficeTool branch, and push to your
+ 5. Create your master branch off the MMCI_Philippines branch, and push to your
     repository
 
     ```sh

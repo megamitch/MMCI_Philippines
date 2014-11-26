@@ -15,8 +15,8 @@ If you wish to contribute to MOT modules, please be sure to
 read/subscribe to the following resources:
 
  -  [Coding Standards](https://github.com/zendframework/zf2/wiki/Coding-Standards)
- -  [Git Guide](https://github.com/CodingMatters/MegaOfficeTool/blob/master/README-GIT.md)
- -  [MOT developer support](mailto:support@megamitch.com)
+ -  [Git Guide](https://github.com/megamitch/MMCI_Philippines/blob/master/README-GIT.md)
+ -  [Mega Mitch developer support](mailto:support@megamitch.com)
 
 If you are working on new features, refactoring an existing module, or proposing
 a new module, please send an email to the developer mailing list.
