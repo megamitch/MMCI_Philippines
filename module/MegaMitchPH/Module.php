@@ -41,7 +41,7 @@ use Zend\ModuleManager\Feature\ConfigProviderInterface;
  */
 class Module implements 
     AutoloaderProviderInterface,
-    ServiceProviderInterface,    
+    ServiceProviderInterface,
     ConfigProviderInterface,
     ControllerProviderInterface
 {
@@ -50,6 +50,9 @@ class Module implements
         $eventManager        = $event->getApplication()->getEventManager();
         $moduleRouteListener = new ModuleRouteListener();
         $moduleRouteListener->attach($eventManager);
+        
+        $serviceManager = $event->getApplication()->getServiceManager();
+        $eventManager->attach($serviceManager->get('ZfcRbac\View\Strategy\RedirectStrategy'));
     }
 
     public function getConfig()
