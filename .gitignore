@@ -19,3 +19,9 @@ temp/
 # Legacy ZF1
 demos/
 extras/documentation
+
+# 3rd party assets
+public/assets/
+
+# build files
+build/
