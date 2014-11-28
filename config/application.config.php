@@ -28,16 +28,15 @@ return [
     // This should be an array of module namespaces used in the application.
     'modules' => [
         'EdpModuleLayouts',
-        
+        'MegaMitchPH',        
 //        'DoctrineModule',
 //        'DoctrineORMModule',
         'ZfcBase',
         'ZfcUser',
         'ZfcRbac',
 //        'ZfcUserDoctrineORM',
-        'Mot',
         'MotUsers',
-        'MegaMitchPH',
+        'Mot',
         'MotAttendance',
     ],
 
