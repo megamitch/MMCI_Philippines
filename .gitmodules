@@ -4,3 +4,6 @@
 [submodule "module/MotUsers"]
 	path = module/MotUsers
 	url = https://github.com/megamitch/MOT_Users.git
+[submodule "module/MotAttendance"]
+	path = module/MotAttendance
+	url = https://github.com/megamitch/Attendance.git
