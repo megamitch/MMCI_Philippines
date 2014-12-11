@@ -45,7 +45,7 @@
             "mv bower_components/components-bootstrap public/assets/bootstrap",
             "rm -rf bower_components",
             "cp -a module/Mot/data/assets/mot public/assets",
-            "cp -a module/Mot/data/assets/mot-attendance public/assets"
+            "cp -a module/MotAttendance/data/assets/mot-attendance public/assets"
         ],
         "pre-update-cmd": [
             "rm -rf public/assets/jquery",
@@ -62,7 +62,7 @@
             "mv bower_components/components-bootstrap public/assets/bootstrap",
             "rm -rf bower_components",
             "cp -a module/Mot/data/assets/mot public/assets",
-            "cp -a module/Mot/data/assets/mot-attendance public/assets"
+            "cp -a module/MotAttendance/data/assets/mot-attendance public/assets"
         ]
     }
 }
