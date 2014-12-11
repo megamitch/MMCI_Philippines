@@ -35,8 +35,9 @@ return [
         'ZfcUser',
         'ZfcRbac',
 //        'ZfcUserDoctrineORM',
-        'MotUsers',
         'Mot',
+        'MotReports',
+        'MotUsers',
         'MotAttendance',
     ],
 

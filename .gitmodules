@@ -7,3 +7,6 @@
 [submodule "module/MotAttendance"]
 	path = module/MotAttendance
 	url = https://github.com/megamitch/Attendance.git
+[submodule "module/MotReports"]
+	path = module/MotReports
+	url = https://github.com/megamitch/MOT_Reports.git
