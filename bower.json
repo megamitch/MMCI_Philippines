@@ -17,6 +17,7 @@
   "directory": "public/testasset",
   "dependencies": {
     "jquery": "2.1.1",
+    "jquery-ui": "1.11.2",
     "components-font-awesome": "4.2.0",
     "components-bootstrap": "3.3.1"
   }
