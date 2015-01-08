@@ -10,3 +10,6 @@
 [submodule "module/MotReports"]
 	path = module/MotReports
 	url = https://github.com/megamitch/MOT_Reports.git
+[submodule "module/MotMambu"]
+	path = module/MotMambu
+	url = https://github.com/megamitch/MOT_MambuAPI.git

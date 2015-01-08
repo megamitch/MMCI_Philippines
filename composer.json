@@ -37,7 +37,9 @@
             "rm -rf public/assets/font-awesome",
             "rm -rf public/assets/bootstrap",
             "rm -rf public/assets/mot",
-            "rm -rf public/assets/mot-attendance"
+            "rm -rf public/assets/mot-attendance",
+            "rm -rf public/assets/mot-reports",
+            "rm -rf public/assets/datatables"
         ],
         "post-install-cmd": [
             "git submodule update --init",
@@ -58,7 +60,9 @@
             "rm -rf public/assets/font-awesome",
             "rm -rf public/assets/bootstrap",
             "rm -rf public/assets/mot",
-            "rm -rf public/assets/mot-attendance"
+            "rm -rf public/assets/mot-attendance",
+            "rm -rf public/assets/mot-reports",
+            "rm -rf public/assets/datatables"
         ],
         "post-update-cmd": [
             "git submodule sync",
