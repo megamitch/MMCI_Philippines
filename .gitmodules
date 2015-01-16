@@ -13,3 +13,6 @@
 [submodule "module/MotMambu"]
 	path = module/MotMambu
 	url = https://github.com/megamitch/MOT_MambuAPI.git
+[submodule "module/MotOb"]
+	path = module/MotOb
+	url = https://github.com/megamitch/MOT_OB.git

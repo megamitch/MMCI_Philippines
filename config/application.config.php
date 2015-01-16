@@ -40,7 +40,8 @@ return [
         'MotMambu',
         'MotUsers',
         'MotReports',
-        'MotAttendance'
+        'MotAttendance',
+        'MotOb'
     ],
 
     // These are various options for the listeners attached to the ModuleManager
