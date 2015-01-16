@@ -35,13 +35,13 @@ return [
 //        'ZfcRbac',
         'ZfcUserDoctrineORM',
         'BjyAuthorize',
-        'MegaMitchPH',
         'Mot',
         'MotMambu',
         'MotUsers',
         'MotReports',
+        'MotOb',
         'MotAttendance',
-        'MotOb'
+        'MegaMitchPH'
     ],
 
     // These are various options for the listeners attached to the ModuleManager
