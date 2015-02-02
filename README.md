@@ -21,6 +21,9 @@ Mega Mitch Office Tool (MOT) is an internal application used for day-to-day tran
 
 Daily transaction report for Mega Mitch Credit, Inc. employees
 
+#### [MotReports] (https://github.com/megamitch/MOT_Reports) [![Latest Stable Version](https://poser.pugx.org/megamitch/mot-reports/v/stable.svg)](https://packagist.org/packages/megamitch/mot-reports) [![License](https://poser.pugx.org/megamitch/mot-reports/license.svg)](https://packagist.org/packages/megamitch/mot-reports) [![Build Status](https://travis-ci.org/megamitch/MOT_Reports.svg)](https://travis-ci.org/megamitch/MOT_Reports)
+
+Reporting module
 
 Installation
 ------------
@@ -31,14 +34,14 @@ The recommended way to get a working copy of this project is to clone the reposi
 and use `composer` to install dependencies using the `create-project` command:
 
     curl -s https://getcomposer.org/installer | php --
-    php composer.phar create-project --prefer-source --no-dev megamitch/megamitch-philippines path/to/install
+    sudo php composer.phar create-project --prefer-source --no-dev megamitch/megamitch-philippines /var/www/html/MegaMitchPH
 
 Alternately, clone the repository and manually invoke `composer` using the shipped
 `composer.phar`:
 
-    cd my/project/dir
-    git clone git://github.com/megamitch/MMCI_Philippines.git
-    cd MMCI_Philippines
+    cd /var/www/html
+    git clone git://github.com/megamitch/MMCI_Philippines.git MegaMitchPH
+    cd MegaMitchPH 
     git submodule init
     git submodue update
     php composer.phar self-update
